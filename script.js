@@ -11,15 +11,19 @@ for (let i = 1; i < 101; i++) {
     if ((i % 3) && (i % 5) == 0) {
         console.log("FizzBuzz");
         numberBox.innerHTML = "FizzBuzz";
+        numberBox.classList.add('fizzbuzz');
     } else if (i % 5 == 0) {
         console.log("Buzz");
         numberBox.innerHTML = "Buzz";
+        numberBox.classList.add('buzz');
     } else if (i % 3 == 0) {
         console.log("Fizz");
         numberBox.innerHTML = "Fizz";
+        numberBox.classList.add('fizz');
     } else{
         console.log(i);
         numberBox.innerHTML = i;
+        numberBox.classList.add('number');
     }
 
     // All'interno del div viene inserito "i"
