@@ -10,16 +10,20 @@ for (let i = 1; i < 101; i++) {
     // Condizioni per il valore da stampare in console
     if ((i % 3) && (i % 5) == 0) {
         console.log("FizzBuzz");
+        numberBox.innerHTML = "FizzBuzz";
     } else if (i % 5 == 0) {
         console.log("Buzz");
+        numberBox.innerHTML = "Buzz";
     } else if (i % 3 == 0) {
         console.log("Fizz");
+        numberBox.innerHTML = "Fizz";
     } else{
         console.log(i);
+        numberBox.innerHTML = i;
     }
 
     // All'interno del div viene inserito "i"
-    numberBox.innerHTML = i;
+    
 
     // Scrittura in pagina
     document.getElementById("wrapperBox").appendChild(numberBox);
