@@ -1,0 +1,11 @@
+div.col-2.box{
+    background-color: blue;
+    border: 1px solid black;
+    color: #fff;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+    margin: 10px;
+}
